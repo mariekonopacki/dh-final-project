@@ -50,7 +50,7 @@ for t_file in files:
 
     # Shuffle the colored pixels & cut off any excess due to rounding
     random.shuffle(text_color_map)
-    text_color_map[:value]
+    text_color_map = text_color_map[:value]
 
     # Split huge array into equal parts to create square final image
     finished_map = numpy.array_split(numpy.array(text_color_map), math.sqrt(pixels))
