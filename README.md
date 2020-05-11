@@ -11,6 +11,7 @@ About the repository:
       1. Checks if any words match the colors list. If a word matches, it adds it to a Color Frequency dictionary for that specific text. After checking through an entire text, the Color Frequency dictionary shows how many times each color appears in a text.     
           Ex) {'blue': '15', 'red': '9', 'magenta': '3'}
       2. For each color in the Color Frequency dictionary, it converts into a percent of the total # of color instances and multiply by the total number of pixels. Instead of naming it by the color, it is now using its hex code value.
+          
           Ex) {'#0000ff': '3556', '#ff0000': '2133', '#ff00ff': '711'}
           If the color blue (#0000ff) appears 15 times, there are 27 instances of colors, there are 6400 total pixels, then 15 / 27 * 6400 = 3556. The color blue will then take up 3556 pixels in the final image.
           This program creates a 80x80 grid (6400 pixels), but you can make it smaller or larger by changing the Pixels variable to any value that has a square root. 
