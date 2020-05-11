@@ -5,6 +5,10 @@ For my final project for methods in the Digital Humanities, I decided to experim
 
 <img src="https://text-visualizer.netlify.app/static/cfcb060f319a38bf023110559254ed48/aac8d/dorothy-and-the-wizard-of-oz.jpg" width="40%">
 
+Notice the greens and yellows (Emerald City and the yellow brick road, anyone?). When first seeing this image, I was shocked that there were no instances of Ruby––after some research, I found out the infamous ruby slippers are actually Silver Shoes in the books!
+
+[In this website,](https://text-visualizer.netlify.app/) I've uploaded the results I got after inputting various texts. I was interested in what different texts look like both within and across genres. First, I delve into art books: both about art movements and specific artists. How do the images compare to the movements or artists' works they're describing? Then, I look at a few books in the Botany, Crime, Fantasy, Gothic Fiction, and Horror genres. The Botany books are notably more colorful than other genres (both in frequency and variety of color words), and Horror books contain a lot of red and black, as a few examples of findings of interest.
+
 About the repository:
   - **color_databases/color_db_scraper.py**: This program I wrote scrapes an established color database from [ColorHexa](https://www.colorhexa.com/color-names), with some few personal additions and subtractions. 
   - **color_databases/colors.py**: A python list of the extracted colors.
