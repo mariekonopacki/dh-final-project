@@ -1,5 +1,8 @@
 ### English 298DH Final Project, Marie Konopacki
-## Text to Color Generator
+## Text Visualizer: Novels to Pixel Art
+
+For my final project for methods in the Digital Humanities, I decided to experiment with visualizing text. Essentially, I extracted all instances of color in books, and converted them into pixel art, demonstrating the colors and their proportion to one another. For instance, here's what Dorothy and the Wizard in Oz looks like:
+![Dorothy](https://text-visualizer.netlify.app/static/cfcb060f319a38bf023110559254ed48/aac8d/dorothy-and-the-wizard-of-oz.jpg)
 
 About the repository:
   - **color_databases/color_db_scraper.py**: This program I wrote scrapes an established color database from [ColorHexa](https://www.colorhexa.com/color-names), with some few personal additions and subtractions. 
