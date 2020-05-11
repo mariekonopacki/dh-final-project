@@ -1,16 +1,16 @@
-from nltk.tokenize import word_tokenize
 from color_databases.colors import colors_list
 from color_databases.colors_with_hexes import colors_with_hexes
-import turtle
+from nltk.tokenize import word_tokenize
+import math
+import numpy
+import operator
+import os
 import re
 import random
-import numpy
-import math
-import os
-from turtle import *
 import turtle
-import operator
+from turtle import *
 
+# Set the number of pixels in the final image output. 6400 = 80x80 grid
 pixels = 6400
 
 files = [i for i in os.listdir("text_samples")]
